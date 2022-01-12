@@ -67,7 +67,6 @@ const Sidebar = () => {
 					<p>Your episodes</p>
 				</button>
 				<hr className="border-t-[0.1px] border-gray-900" />
-
 				{playlists &&
 					playlists.map((playlist, i) => (
 						<p
